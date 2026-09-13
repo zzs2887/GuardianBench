@@ -1,0 +1,18 @@
+data_path: ../data/test.parquet
+output_dir: ../outputs/local
+system_prompt_path: ../prompts/test.txt
+limit_pairs: null
+local:
+  model_name_or_path: /path/to/model
+  revision: null
+  local_files_only: true
+  trust_remote_code: false
+  device_map: auto
+  dtype: bfloat16
+  attn_implementation: sdpa
+  temperature: 0.0
+  top_p: 1.0
+  max_new_tokens: 1024
+  seed: 42
+  processor_kwargs: {}
+  chat_template_kwargs: {}

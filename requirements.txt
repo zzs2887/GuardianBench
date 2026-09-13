@@ -1,0 +1,13 @@
+# Data loading and scoring
+pyarrow==22.0.0
+Pillow==12.0.0
+PyYAML==6.0.2
+
+# API backend (evaluate_openai.py)
+openai==2.6.1
+
+# Local backend (evaluate_local.py)
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.57.3
+accelerate==1.11.0

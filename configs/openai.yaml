@@ -1,0 +1,17 @@
+data_path: ../data/test.parquet
+output_dir: ../outputs/openai
+system_prompt_path: ../prompts/test.txt
+limit_pairs: null
+openai:
+  base_url: http://localhost:8000/v1
+  model: your-vision-model
+  api_key_env: OPENAI_API_KEY
+  timeout: 120.0
+  max_retries: 2
+  temperature: 0.0
+  top_p: null
+  seed: null
+  max_tokens: 1024
+  max_tokens_parameter: max_completion_tokens
+  effort: null
+  extra_body: {}
